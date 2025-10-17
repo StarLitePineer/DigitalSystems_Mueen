@@ -11,13 +11,21 @@ It uses the same gate structure but implements the inverse mapping of the S-Box.
 PARTS LIST
 
 DIP switches (for binary inputs A, B, C)
+
 Pull-down resistors (10 kΩ)
+
 74LS04 Hex Inverter
+
 74LS08 Quad 2-Input AND Gate
+
 74LS32 Quad 2-Input OR Gate
+
 LEDs (for outputs y₂, y₁, y₀)
+
 220 Ω resistors (for LEDs)
+
 Jumper wires (male-to-male)
+
 74LS86 Quad 2-Input XOR Gate 
 
   
