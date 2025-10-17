@@ -28,5 +28,7 @@ Jumper wires (male-to-male)
 
 74LS86 Quad 2-Input XOR Gate 
 
-K-Maps for 4x4 --> 3x3 serpent boolean expression
+
+K-Maps 
+
 [Serpent s0.pdf](https://github.com/user-attachments/files/22971414/Serpent.s0.pdf)
