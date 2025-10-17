@@ -27,7 +27,7 @@ LEDs (for outputs y₂, y₁, y₀)
 Jumper wires (male-to-male)
 
 74LS86 Quad 2-Input XOR Gate 
-
+-----------------------------------------------------------------------------
 
 
 
