@@ -5,6 +5,9 @@ The purpose of this circuit is to demonstrate a simple, hardware-based encryptio
 An additional circuit (the S-Inverter) can be built to perform the reverse transformation.
 It uses the same gate structure but implements the inverse mapping of the S-Box. A selector switch can toggle between both circuits operating side-by-side to demonstrate forward and reverse substitution.
 
+Design was constructed utilizing a substitution table from the attached publication, substitution values s0,2, s0,1, s0,0
+
+[2009-038.pdf](https://github.com/user-attachments/files/22971484/2009-038.pdf)
 
 
 ![IMG_1805_compressed](https://github.com/user-attachments/assets/0f58762e-e1a4-4288-8142-54bf3cb0cd2d)
@@ -36,3 +39,5 @@ Jumper wires (male-to-male)
 K-Maps 
 -----------------------------------------------------------------------------
 [Serpent s0.pdf](https://github.com/user-attachments/files/22971414/Serpent.s0.pdf)
+
+
