@@ -9,6 +9,7 @@ It uses the same gate structure but implements the inverse mapping of the S-Box.
 ![IMG_1805_compressed](https://github.com/user-attachments/assets/0f58762e-e1a4-4288-8142-54bf3cb0cd2d)
 
 PARTS LIST
+
 DIP switches (for binary inputs A, B, C)
 Pull-down resistors (10 kΩ)
 74LS04 Hex Inverter
