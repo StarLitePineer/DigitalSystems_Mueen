@@ -3,3 +3,5 @@ The purpose of this circuit is to demonstrate a simple, hardware-based encryptio
 
 An additional circuit (the S-Inverter) can be built to perform the reverse transformation.
 It uses the same gate structure but implements the inverse mapping of the S-Box. A selector switch can toggle between both circuits operating side-by-side to demonstrate forward and reverse substitution.
+
+![IMG_1805](https://github.com/user-attachments/assets/57fbb818-174c-4ec4-8fb4-7ca903710acc)
