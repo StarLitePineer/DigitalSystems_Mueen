@@ -5,4 +5,5 @@ An additional circuit (the S-Inverter) can be built to perform the reverse trans
 It uses the same gate structure but implements the inverse mapping of the S-Box. A selector switch can toggle between both circuits operating side-by-side to demonstrate forward and reverse substitution.
 
 
-![IMG_1805](https://github.com/user-attachments/assets/8ac62dfe-b8a2-4d97-abdb-e14c8da5fd5e)
+
+![IMG_1805_compressed](https://github.com/user-attachments/assets/0f58762e-e1a4-4288-8142-54bf3cb0cd2d)
