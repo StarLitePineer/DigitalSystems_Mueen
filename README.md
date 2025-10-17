@@ -2,7 +2,7 @@ Project: 3-Bit Substitution-Box Transformation Circuit (TTL Implementation)
 -----------------------------------------------------------------------------
 The purpose of this circuit is to demonstrate a simple, hardware-based encryption and substitution process using combinational logic. The system implements a custom 3-bit nonlinear substitution box (S-Box) built entirely from TTL logic gates, DIP switches, and LED indicators. The circuit translates a 3-bit binary input into a unique 3-bit binary output according to a predefined mapping table (substitution table). This operation models the transformation step used in many modern block ciphers, such as the Serpent or AES encryption algorithms. 
 
-An additional circuit (the S-Inverter) can be built to perform the reverse transformation.
+An additional circuit (the S-Inverter) is built to perform the reverse transformation.
 It uses the same gate structure but implements the inverse mapping of the S-Box. A selector switch can toggle between both circuits operating side-by-side to demonstrate forward and reverse substitution.
 
 Design was constructed utilizing a substitution table from the attached publication, substitution values s0,3, s0,2, s0,1, s0,0
