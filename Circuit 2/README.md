@@ -71,7 +71,7 @@ ERROR  = P_out′P_back + P_outP_back′
 | 74LS08 | Quad 2-Input AND | Four AND gates per chip | 1 | Forms partial XOR products and ERROR term |
 | 74LS32 | Quad 2-Input OR | Four OR gates per chip | 1 | Combines AND gate outputs to form XOR results |
 | LEDs (Red, Green, Yellow) | — | Status indicators | 3 | Green = input parity (P_out), Yellow = output parity (P_back), Red = error |
-| Resistors | 1 kΩ | Current limiting for LEDs | 3 | LED current protection |
+| Resistors | 220 Ω | Current limiting for LEDs | 3 | LED current protection |
 | Breadboard | — | Prototyping board | 1 | Circuit assembly base |
 | Jumper Wires | — | Male-to-male | — | Signal routing between outputs |
 | 5V Power Supply | — | +5V DC Regulated | 1 | TTL power input |
