@@ -7,10 +7,15 @@ If both parities are identical, the data path is verified as correct. If they di
 This design is fully combinational and uses only basic TTL logic gates.  
 It functions as an integrity checker complementing the encryption and decryption stages implemented in Circuit 1.
 
+---
+## Simulation
+
+<img width="1021" height="417" alt="Screenshot 2025-10-28 at 6 27 12 PM" src="https://github.com/user-attachments/assets/82f1a6a4-d97f-443a-ab0e-d9b32676a651" />
 
 ---
 
 ## Truth Table — Input Parity (P_out)
+<img width="614" height="417" alt="Screenshot 2025-10-28 at 6 26 35 PM" src="https://github.com/user-attachments/assets/6dcd2df5-6f79-4877-b666-9ae45f9d42eb" />
 
 | A | B | C | Decimal In | P_out = A ⊕ B ⊕ C |
 |:-:|:-:|:-:|:-----------:|:----------------:|
@@ -28,6 +33,7 @@ P_out  = A′B′C + A′BC′ + AB′C′ + ABC
 ---
 
 ## Truth Table — Output Parity (P_back)
+<img width="614" height="417" alt="Screenshot 2025-10-28 at 6 26 44 PM" src="https://github.com/user-attachments/assets/fdf81655-8ec3-4929-8ef9-8b11b3d137b2" />
 
 | Z₂ | Z₁ | Z₀ | Decimal In | P_back = Z₂ ⊕ Z₁ ⊕ Z₀ |
 |:-:|:-:|:-:|:-----------:|:----------------:|
