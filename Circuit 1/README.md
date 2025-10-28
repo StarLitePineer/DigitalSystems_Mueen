@@ -1,5 +1,5 @@
 # 3×3 S-Box (Forward/Inverse)
-TTL Implementation |
+TTL Implementation 
 
 ---
 
