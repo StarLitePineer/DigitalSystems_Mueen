@@ -77,5 +77,10 @@ ERROR  = P_out′P_back + P_outP_back′
 | 5V Power Supply | — | +5V DC Regulated | 1 | TTL power input |
 
 ---
+## Reflection
 
+Developing the parity verification circuit highlighted the importance of validation and fault detection in digital design.  
+By implementing XOR-based parity comparison using only AND, OR, and NOT gates, I gained a practical understanding of how simple logic can ensure data integrity.  
+Debugging the LED indicators and verifying the ERROR signal deepened my grasp of logical equivalence, complementarity, and how to visualize binary relationships.  
+This circuit complemented the S-Box system by demonstrating that even a minimal set of gates can provide robust error checking and clear visual feedback in real-time hardware.
 
