@@ -96,5 +96,9 @@ Z₀ = B′·C + A′·B
 | 5V Power Supply | — | +5V DC Regulated | 1 | Powers TTL ICs and LEDs |
 
 ---
+## Reflection  
 
-
+Building the S-Box system gave me a much deeper appreciation for how abstract logic functions translate into physical hardware.  
+Seeing the Boolean equations I derived light up real LEDs on the breadboard reinforced my understanding of gate-level design and debugging.  
+The most challenging part was minimizing the expressions cleanly for limited TTL inputs, but completing the reversible design and verifying its accuracy was extremely rewarding.  
+This project strengthened both my theoretical and practical grasp of digital logic — especially the connection between encryption concepts and combinational circuit design.
