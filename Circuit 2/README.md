@@ -23,6 +23,7 @@ It functions as an integrity checker complementing the encryption and decryption
 | 1 | 1 | 0 | 6 | 0 |
 | 1 | 1 | 1 | 7 | 1 |
 
+P_out  = A′B′C + A′BC′ + AB′C′ + ABC
 ---
 
 ## Truth Table — Output Parity (P_back)
@@ -38,6 +39,8 @@ It functions as an integrity checker complementing the encryption and decryption
 | 1 | 1 | 0 | 6 | 0 |
 | 1 | 1 | 1 | 7 | 1 |
 
+
+P_back = Z₂′Z₁′Z₀ + Z₂′Z₁Z₀′ + Z₂Z₁′Z₀′ + Z₂Z₁Z₀
 ---
 
 ## Truth Table — Error Comparison (P_out vs P_back)
@@ -48,3 +51,5 @@ It functions as an integrity checker complementing the encryption and decryption
 | 0 | 1 | 1 |
 | 1 | 0 | 1 |
 | 1 | 1 | 0 |
+
+ERROR  = P_out′P_back + P_outP_back′
