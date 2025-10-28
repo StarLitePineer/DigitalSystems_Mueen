@@ -89,7 +89,6 @@ Z₀ = B′·C + A′·B
 | 74LS04 | Hex Inverter | Six NOT gates per chip | 1 | Used to invert input signals (A′, B′, C′) for Boolean terms |
 | 74LS08 | Quad 2-Input AND | Four AND gates per chip | 2 | Implements product terms in the S-Box and Inverse equations |
 | 74LS32 | Quad 2-Input OR | Four OR gates per chip | 2 | Combines AND outputs to form final S-Box outputs (Y₂,Y₁,Y₀) |
-| 74LS47 *(optional)* | BCD to 7-Segment Decoder | Drives 7-segment display | 1 | Converts 3-bit outputs (plus grounded MSB) to visual numeric output |
 
 | LEDs (Green, Yellow) | — | Standard 5 mm LEDs | 3–6 | Forward (green) and inverse (yellow) output indication |
 | Resistors | 220 kΩ | Current limiting for LEDs /| 6–10 | Prevents overcurrent damage |
