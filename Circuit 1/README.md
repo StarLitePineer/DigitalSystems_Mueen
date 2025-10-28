@@ -1,5 +1,5 @@
-# 3×3 S-Box and Parity Verification Project  
-TTL Implementation | Digital Systems Portfolio
+# 3×3 S-Box (Forward/Inverse)
+TTL Implementation |
 
 ---
 
