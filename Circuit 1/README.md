@@ -9,6 +9,8 @@ It forms the encryption stage of the system.
 Outputs (Y₂, Y₁, Y₀) feed LEDs, and into the inverse S-Box (Circuit 2 input).
 
 ---
+<img width="1206" height="2622" alt="IMG_1894" src="https://github.com/user-attachments/assets/0170e568-8876-4184-9769-be6e6e3d9b1b" />
+
 
 ## Forward 3×3 S-Box
 
@@ -66,6 +68,8 @@ Z₀ = B′·C + A′·B
 | Inverter | 74LS04 | NOT |
 | AND | 74LS08 | 2-Input AND |
 | OR | 74LS32 | 2-Input OR |
+
+
 
 ---
 
