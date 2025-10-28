@@ -4,9 +4,10 @@ TTL Implementation
 ---
 
 ### Description
-This 3×3 S-Box performs a nonlinear bit substitution, producing unique 3-bit outputs for each 3-bit input.  
-It forms the encryption stage of the system.  
-Outputs (Y₂, Y₁, Y₀) feed LEDs, and into the inverse S-Box (Circuit 2 input).
+
+Circuit 1 implements both the **Forward 3×3 S-Box** and its **Inverse 3×3 S-Box** entirely with standard TTL logic gates.  
+An **S-Box (substitution box)** is a nonlinear combinational function that maps each 3-bit input pattern (A,B,C) to a unique 3-bit output (Y₂,Y₁,Y₀).  
+This nonlinear mapping provides *confusion*—a key cryptographic property—by breaking direct, linear relationships between input and output bits.  
 
 ---
 <img width="1206" height="2622" alt="IMG_1894" src="https://github.com/user-attachments/assets/0170e568-8876-4184-9769-be6e6e3d9b1b" />
