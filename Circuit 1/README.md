@@ -89,7 +89,7 @@ Z₀ = B′·C + A′·B
 | 74LS04 | Hex Inverter | Six NOT gates per chip | 1 | Used to invert input signals (A′, B′, C′) for Boolean terms |
 | 74LS08 | Quad 2-Input AND | Four AND gates per chip | 2 | Implements product terms in the S-Box and Inverse equations |
 | 74LS32 | Quad 2-Input OR | Four OR gates per chip | 2 | Combines AND outputs to form final S-Box outputs (Y₂,Y₁,Y₀) | LEDs (Green, Yellow) | — | Standard 5 mm LEDs | 3–6 | Forward (green) and inverse (yellow) output indication |
-| Resistors | 220 kΩ | Current limiting for LEDs /| 6–10 | Prevents overcurrent damage |
+| Resistors | 220 Ω | Current limiting for LEDs /| 6–10 | Prevents overcurrent damage |
 | Breadboard | — | Prototyping board | 1 | Physical layout for TTL logic |
 | Jumper Wires | — | Male-to-male | — | Logic interconnections |
 | 5V Power Supply | — | +5V DC Regulated | 1 | Powers TTL ICs and LEDs |
