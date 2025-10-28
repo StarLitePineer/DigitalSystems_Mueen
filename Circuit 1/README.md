@@ -18,8 +18,7 @@ Outputs (Y₂, Y₁, Y₀) feed LEDs, and into the inverse S-Box (Circuit 2 inpu
 ---
 Kmap
 
-![Kmap](https://github.com/user-attachments/assets/3d059cf7-14f2-4ed1-ab99-971210002342)
-
+<img width="658" height="349" alt="Screenshot 2025-10-28 at 6 25 18 PM" src="https://github.com/user-attachments/assets/71325d15-5a7d-4510-83b2-97507ac1a53e" />
 
 ---
 
