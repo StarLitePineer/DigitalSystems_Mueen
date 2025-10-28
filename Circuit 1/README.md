@@ -3,21 +3,28 @@ TTL Implementation
 
 ---
 
-## Circuit 1 — Forward 3×3 S-Box
+### Description
+This 3×3 S-Box performs a nonlinear bit substitution, producing unique 3-bit outputs for each 3-bit input.  
+It forms the encryption stage of the system.  
+Outputs (Y₂, Y₁, Y₀) feed LEDs, and into the inverse S-Box (Circuit 2 input).
 
-### Inputs → Outputs
-| A | B | C | Y₂ | Y₁ | Y₀ |
-|:-:|:-:|:-:|:--:|:--:|:--:|
-| 0 | 0 | 0 | 1 | 1 | 1 |
-| 0 | 0 | 1 | 0 | 1 | 1 |
-| 0 | 1 | 0 | 0 | 0 | 0 |
-| 0 | 1 | 1 | 1 | 0 | 1 |
-| 1 | 0 | 0 | 1 | 1 | 0 |
-| 1 | 0 | 1 | 0 | 1 | 0 |
-| 1 | 1 | 0 | 1 | 0 | 0 |
-| 1 | 1 | 1 | 0 | 0 | 1 |
+---
 
-S(A,B,C) = (Y₂, Y₁, Y₀)
+## Forward 3×3 S-Box
+
+### Truth Table
+| A | B | C | Decimal In | Y₂ | Y₁ | Y₀ | Decimal Out |
+|:-:|:-:|:-:|:-----------:|:--:|:--:|:--:|:------------:|
+| 0 | 0 | 0 | 0 | 1 | 1 | 1 | 7 |
+| 0 | 0 | 1 | 1 | 0 | 1 | 1 | 3 |
+| 0 | 1 | 0 | 2 | 0 | 0 | 0 | 0 |
+| 0 | 1 | 1 | 3 | 1 | 0 | 1 | 5 |
+| 1 | 0 | 0 | 4 | 1 | 1 | 0 | 6 |
+| 1 | 0 | 1 | 5 | 0 | 1 | 0 | 2 |
+| 1 | 1 | 0 | 6 | 1 | 0 | 0 | 4 |
+| 1 | 1 | 1 | 7 | 0 | 0 | 1 | 1 |
+
+S(A,B,C) = (Y₂,Y₁,Y₀)
 
 ---
 
@@ -25,6 +32,31 @@ S(A,B,C) = (Y₂, Y₁, Y₀)
 Y₂ = A·C′ + B′·C′ + A′·B·C  
 Y₁ = B′  
 Y₀ = A′·B′ + B·C  
+
+---
+
+## Inverse 3×3 S-Box
+
+### Truth Table
+| Y₂ | Y₁ | Y₀ | Decimal In | Z₂ | Z₁ | Z₀ | Decimal Out |
+|:--:|:--:|:--:|:-----------:|:--:|:--:|:--:|:------------:|
+| 0 | 0 | 0 | 0 | 0 | 1 | 0 | 2 |
+| 0 | 0 | 1 | 1 | 1 | 1 | 1 | 7 |
+| 0 | 1 | 0 | 2 | 1 | 0 | 1 | 5 |
+| 0 | 1 | 1 | 3 | 0 | 0 | 1 | 1 |
+| 1 | 0 | 0 | 4 | 1 | 1 | 0 | 6 |
+| 1 | 0 | 1 | 5 | 0 | 1 | 1 | 3 |
+| 1 | 1 | 0 | 6 | 1 | 0 | 0 | 4 |
+| 1 | 1 | 1 | 7 | 0 | 0 | 0 | 0 |
+
+InvS(Y₂,Y₁,Y₀) = (Z₂,Z₁,Z₀)
+
+---
+
+### Boolean Equations (Inverse S-Box)
+Z₂ = A·C′ + B·C′ + A′·B′·C  
+Z₁ = B′  
+Z₀ = B′·C + A′·B
 
 ---
 
@@ -37,7 +69,4 @@ Y₀ = A′·B′ + B·C
 
 ---
 
-### Description
-This 3×3 S-Box performs a nonlinear bit substitution, producing unique 3-bit outputs for each 3-bit input.  
-It forms the encryption stage of the system.  
-Outputs (Y₂, Y₁, Y₀) feed LEDs, and into the inverse S-Box (Circuit 2 input).
+
