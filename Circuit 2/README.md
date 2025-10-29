@@ -15,7 +15,8 @@ It functions as an integrity checker complementing the encryption and decryption
 ---
 
 ## Truth Table — Input Parity (P_out)
-<img width="614" height="417" alt="Screenshot 2025-10-28 at 6 26 35 PM" src="https://github.com/user-attachments/assets/6dcd2df5-6f79-4877-b666-9ae45f9d42eb" />
+<img width="1050" height="724" alt="Screenshot 2025-10-29 at 9 44 55 AM" src="https://github.com/user-attachments/assets/9fc223dc-4432-43eb-96d7-a7dba2b35563" />
+
 
 | A | B | C | Decimal In | P_out = A ⊕ B ⊕ C |
 |:-:|:-:|:-:|:-----------:|:----------------:|
@@ -33,7 +34,8 @@ P_out  = A′B′C + A′BC′ + AB′C′ + ABC
 ---
 
 ## Truth Table — Output Parity (P_back)
-<img width="614" height="417" alt="Screenshot 2025-10-28 at 6 26 44 PM" src="https://github.com/user-attachments/assets/fdf81655-8ec3-4929-8ef9-8b11b3d137b2" />
+<img width="1050" height="724" alt="Screenshot 2025-10-29 at 9 44 07 AM" src="https://github.com/user-attachments/assets/95805ed4-41a5-43f4-9c9f-eebc8bb49e11" />
+
 
 | Z₂ | Z₁ | Z₀ | Decimal In | P_back = Z₂ ⊕ Z₁ ⊕ Z₀ |
 |:-:|:-:|:-:|:-----------:|:----------------:|
